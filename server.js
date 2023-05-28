@@ -12,6 +12,8 @@ app.get('/ryan', (req,res) => {res.send("Hello Ryan")});
 
 app.get('/samantha', (req,res) => {res.send("Hello Samantha")});
 
+app.get('/brian', (req,res) => {res.send("Hello Brian")});
+
 app.get('/grant', (req, res)=> {
     res.send("Hello Grant");
 })
